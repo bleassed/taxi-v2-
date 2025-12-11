@@ -17,7 +17,7 @@ return new class extends Migration
             $table->datetime('date_time');
             $table->string('add_from');
             $table->string('add_to');
-            $table->integer('passengers');
+            $table->string('car_class');
             $table->text('comment');
             $table->timestamps();
         });

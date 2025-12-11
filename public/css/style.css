@@ -27,8 +27,7 @@ ol[role='list'] {
 
 /* Set core body defaults */
 body {
-  min-height: 100%;
-  line-height: 1.5;
+  height: 100%;
 }
 
 /* Set shorter line heights on headings and interactive elements */
@@ -72,13 +71,94 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-.container{
+
+/* media */
+
+@media (max-width: 1200px ){
+
+}
+
+@media (max-width: 992px ){
+
+.form_container{
+  width: 100% !important;
+}
+.form{
+  width: 100% !important;
+}
+
+
+}
+
+@media (max-width: 768px ){
+
+
+}
+
+@media (max-width: 480px ){
+
+.nav_adapt_min{
+  display: block !important;
+}
+.nav_adapt_max{
+  display: none !important;
+}
+
+}
+
+@media (max-width: 320px ){
+
+}
+
+@media (min-width: 1170px ){
+
+}
+
+@media (min-width: 992px ){
+
+}
+
+@media (min-width: 768px ){
+
+}
+
+@media (min-width: 480px ){
+
+}
+
+@media (min-width: 320px ){
+
+}
+
+/* media */
+
+.myclass{
     height: 100% !important;
 }
 
 .wrapper{
-    
     width: 100%;
     height: 100%;
     padding: 16px;
 }
+
+.form_container{
+  height: 100%;
+  margin: auto;
+  width: 50%;
+}
+
+.form{
+  margin-top: 30%;
+  width: 500px;
+}
+
+.input{
+  margin-top: 10px;
+}
+
+.nav_adapt_min{
+  display: none;
+}
+
+

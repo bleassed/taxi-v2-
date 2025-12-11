@@ -8,7 +8,7 @@ use App\Models\User;
 
 class Booking extends Model
 {
-    protected $fillable = ['date_time', 'add_from', 'add_to', 'comment' ];
+    protected $fillable = ['date_time', 'add_from', 'add_to', 'car_class', 'comment' ];
     public function user():BelongsTo{
         return $this->belongsTo(User::class);
     }
